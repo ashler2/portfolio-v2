@@ -1,18 +1,24 @@
 .btn {
+  display: inline-block;
   padding: 10px 25px;
   border-radius: 7.5px;
   background-color: $green--dark;
   border: 1px solid $green--dark;
-  transition: ease 0.4s;
   color: $white;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
   width: auto;
-  
+  transition: ease 0.4s;
+
   &:hover {
     background-color: white;
     color: $green--dark;
+  }
+
+  &--large {
+    padding: 20px 50px;
+    font-size: 18px;
   }
 }

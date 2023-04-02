@@ -3,7 +3,7 @@
     <div class="container">
       <h1 class="mt-0">Hello There,<br> My Name is <span class="alt-color">Ashley Readman-Thorley</span></h1>
       <h2>Full Stack Web Develop</h2>
-      <a href="" class="btn">Find Out More</a>
+      <a href="" class="mt-20 btn btn--large">Find Out More</a>
     </div>
 
     <a href="">
