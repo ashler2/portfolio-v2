@@ -1,0 +1,22 @@
+#hero {
+  height: calc(90vh - 40px - 70px);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  &:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+    height: 20px;
+    width: 34px;
+    background-image: url('/carrot.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}

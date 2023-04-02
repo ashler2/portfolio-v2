@@ -1,0 +1,16 @@
+body {
+ background-color: $navy;
+ margin: 0;
+ font-family: 'Roboto', sans-serif;
+ color: $white;
+}
+
+section, .section {
+ margin: $section-padding;
+}
+
+
+.mt-0 {
+ margin-top: 0;
+}
+
