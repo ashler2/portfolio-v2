@@ -1,0 +1,28 @@
+.section-heading {
+  display: flex;
+  align-items: center;
+
+  &:after {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: $green--dark;
+    width: 100%;
+  }
+
+}
+
+.section-heading-title {
+  flex-shrink: 0;
+  margin-right: 15px;
+
+  &__number {
+    color: $green;
+    margin-right: 15px;
+  }
+
+  &__title {
+    text-transform: uppercase;
+  }
+
+}
