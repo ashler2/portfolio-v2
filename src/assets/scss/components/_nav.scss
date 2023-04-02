@@ -49,10 +49,6 @@ $navItemSpacing: 15px;
   }
 }
 
-
-// New
-
-
 .navbar {
   border-bottom: 2px solid $green--dark;
   color: #ffffff;
@@ -116,6 +112,7 @@ $navItemSpacing: 15px;
     height: 3px;
     transition: ease 0.4s;
     opacity: 1;
+    border-radius: 2px;
 
     &:before,
     &:after {
@@ -126,6 +123,7 @@ $navItemSpacing: 15px;
       width: 30px;
       height: 3px;
       transition: ease 0.4s;
+      border-radius: 2px;
     }
 
     &::before {
