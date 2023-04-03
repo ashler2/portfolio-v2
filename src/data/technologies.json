@@ -1,0 +1,35 @@
+[
+  {
+    "label": "Laravel"
+  },
+  {
+    "label": "Vue"
+  },
+  {
+    "label": "PHP"
+  },
+  {
+    "label": "Wordpress"
+  },
+  {
+    "label": "HTML"
+  },
+  {
+    "label": "CSS"
+  },
+  {
+    "label": "SASS"
+  },
+  {
+    "label": "React"
+  },
+  {
+    "label": "Docker"
+  },
+  {
+    "label": "Nginx"
+  },
+  {
+    "label": "Apache"
+  }
+]
