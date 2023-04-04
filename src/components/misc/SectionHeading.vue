@@ -1,0 +1,28 @@
+<template>
+  <div class="section-heading">
+    <h2 class="section-heading-title">
+      <span class="section-heading-title__number">{{ number }}.</span>
+      <span class="section-heading-title__title">{{ title }}</span>
+    </h2>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "SectionHeading",
+  props: {
+    number: {
+      type: String,
+      required: true,
+    },
+    title: {
+      type: String,
+      required: true,
+    }
+  }
+}
+</script>
+
+<style scoped>
+
+</style>

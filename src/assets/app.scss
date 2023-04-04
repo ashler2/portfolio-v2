@@ -4,9 +4,12 @@
 @import './scss/base/base';
 @import './scss/base/typography';
 @import './scss/base/button';
+@import './scss/base/layout';
 
 @import './scss/components/header';
 @import './scss/components/nav';
 
 @import './scss/components/hero';
 @import './scss/components/sidebar-link';
+@import './scss/components/section-heading';
+@import 'scss/components/list-item';

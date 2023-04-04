@@ -22,3 +22,12 @@
     font-size: 18px;
   }
 }
+
+.text-button {
+  color: $green;
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none ;
+  }
+}
