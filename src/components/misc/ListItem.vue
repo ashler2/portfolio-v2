@@ -1,5 +1,5 @@
 <template>
-  <div class="col-sm-3 list-item">
+  <div class="col-6 col-sm-6 list-item">
     <span>{{ label }}</span>
   </div>
 </template>

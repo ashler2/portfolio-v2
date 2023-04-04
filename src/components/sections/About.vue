@@ -2,7 +2,7 @@
   <section id="about">
     <div class="container">
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-12 col-md-6 ">
           <SectionHeading title="About Me" number="01"/>
           <p>
             Hello! My name is Ashley.
@@ -20,7 +20,7 @@
             <a href="#" @click.prevent="toggleLoaded" class="text-button">{{ buttonText }}</a>
           </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-12 col-md-6">
           <div class="image-container">
 
           </div>
