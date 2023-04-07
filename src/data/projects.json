@@ -1,0 +1,71 @@
+[
+  {
+    "title": "Admin System - Work In Progress",
+    "description": "An Admin system built using Laravel for the API and Vue for the SPA.\n The site uses roles and permissions to ensure that users only have access to the sections they need. There are test using PHP unit for various section of the site. The main features of the site are Customers, tasks, time recording. This project is still a work in progress.",
+    "images": [
+      {
+        "link": "/project-images/admin/1.png",
+        "alt": "The Login page for the admin"
+      },
+      {
+        "link": "/project-images/admin/2.png",
+        "alt": "The Login page for the admin"
+      },
+      {
+        "link": "/project-images/admin/3.png",
+        "alt": "The Login page for the admin"
+      },
+      {
+        "link": "/project-images/admin/4.png",
+        "alt": "The Login page for the admin"
+      }
+    ],
+    "live_site": null,
+    "github": null,
+    "tags": [
+      "Laravel",
+      "Vue",
+      "PHP unit",
+      "SPA"
+    ]
+  },
+  {
+    "title": "FBcomms",
+    "description": "A custom wordpress theme built with PHP, SCSS, JS/jQuery for a customer. The backend of wordpress uses the AFC customer fields plugin to controller the content, as well as allows a more flexible approach to adding blocks of content.",
+    "images": [
+      {
+        "link": "/project-images/fbcomms/1.png",
+        "alt": "The Login page for the fbcomms"
+      },
+      {
+        "link": "/project-images/fbcomms/2.png",
+        "alt": "The Login page for the fbcomms"
+      },
+      {
+        "link": "/project-images/fbcomms/3.png",
+        "alt": "The Login page for the fbcomms"
+      },
+      {
+        "link": "/project-images/fbcomms/4.png",
+        "alt": "The Login page for the fbcomms"
+      },
+      {
+        "link": "/project-images/fbcomms/5.png",
+        "alt": "The Login page for the fbcomms"
+      },
+      {
+        "link": "/project-images/fbcomms/6.png",
+        "alt": "The Login page for the fbcomms"
+      }
+    ],
+    "live_site": "https://fbcomms.co.uk/",
+    "github": null,
+    "tags": [
+      "Wordpress",
+      "PHP",
+      "Jquery",
+      "ACF",
+      "SCSS"
+    ]
+  }
+]
