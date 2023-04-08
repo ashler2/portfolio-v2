@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="projects">
     <div class="container">
       <div class="row">
         <SectionHeading title="Projects" number="03" class="col-12 col-sm-6"/>

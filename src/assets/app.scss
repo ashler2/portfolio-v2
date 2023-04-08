@@ -6,14 +6,16 @@
 @import './scss/base/button';
 @import './scss/base/layout';
 
+// Sections
+@import 'scss/sections/hero';
+@import 'scss/sections/about';
+@import 'scss/sections/projects';
+// components
 @import './scss/components/header';
 @import './scss/components/nav';
-
-@import './scss/components/hero';
 @import './scss/components/sidebar-link';
 @import './scss/components/section-heading';
 @import 'scss/components/list-item';
 @import 'scss/components/tags';
 @import 'scss/components/carousel';
-@import 'scss/components/about';
 @import 'scss/components/project-card';

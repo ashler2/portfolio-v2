@@ -13,7 +13,7 @@ body {
  width: 100%;
 }
 
-section:not(.carousel), .section {
+section:not(.carousel):not(#hero), .section {
  margin: $section-padding;
  min-height: 100vh;
 }
