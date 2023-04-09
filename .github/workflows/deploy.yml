@@ -15,7 +15,7 @@ jobs:
           npm run build
 
       - name: Create deployment Artifact
-        run: tar -czf ${{ github.sha }}.tar.gz --exclude=*.git --exclude=node_modules *
+        run: tar -czf ${{ github.sha }}.tar.gz --exclude=*.git *
 
       - name: Store Artifact
         uses: actions/upload-artifact@v2
