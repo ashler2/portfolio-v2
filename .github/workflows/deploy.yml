@@ -12,7 +12,7 @@ jobs:
       - name: Compile CSS and JS
         run: |
           npm install
-          npm run production
+          npm run build
 
       - name: Create deployment Artifact
         run: tar -czf ${{ github.sha }}.tar.gz --exclude=*.git --exclude=node_modules *
