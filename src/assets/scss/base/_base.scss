@@ -1,52 +1,62 @@
 html {
- scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
- background-color: $navy;
- margin: 0;
- font-family: 'Roboto', sans-serif;
- color: $white;
+  background-color: $navy;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: $white;
 }
 
 .row {
- width: 100%;
+  width: 100%;
 }
 
 section:not(.carousel):not(#hero), .section {
- margin: $section-padding;
- min-height: 100vh;
+  margin: $section-padding;
+  min-height: 100vh;
 }
 
 .mb-0 {
- margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .mt-0 {
- margin-top: 0;
+  margin-top: 0;
 }
 
 .mt-20 {
- margin-top: 20px;
+  margin-top: 20px;
 }
 
 .mt-40 {
- margin-top: 40px;
+  margin-top: 40px;
+}
+
+.mb-sm-40 {
+  margin-bottom: 40px;
+
+  @media(min-width: 576px) {
+    margin-bottom: 0;
+  }
 }
 
 .button-container {
 
- .btn {
-  margin-top: 20px;
- }
+  .btn:not(:first-child) {
+    margin-left: 10px;
+  }
+
+  .btn {
+    margin-top: 20px;
+  }
 }
 
-
-
 .flex {
- display: flex;
+  display: flex;
 }
 
 .flex-center {
- justify-content: center;
+  justify-content: center;
 }

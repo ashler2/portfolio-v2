@@ -1,6 +1,6 @@
 <template>
   <div class="project-card row mt-40">
-    <div class="col-12 col-sm-6">
+    <div class="col-12 col-sm-6 mb-sm-40">
       <h3>{{ project.title }}</h3>
       <p>{{ project.description }}</p>
       <TagSection :tags="project.tags"/>
