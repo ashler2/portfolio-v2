@@ -1,6 +1,6 @@
 <template>
   <div class="section-heading">
-    <h2 class="section-heading-title">
+    <h2 class="section-heading-title mb-0">
       <span class="section-heading-title__number">{{ number }}.</span>
       <span class="section-heading-title__title">{{ title }}</span>
     </h2>
