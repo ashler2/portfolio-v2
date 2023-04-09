@@ -30,7 +30,7 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{secrets.SSH_KEY}}
           source: ${{ github.sha }}.tar.gz
-          target: /var/www/html/artifacts
+          target: /var/www/normal/artifacts
 
       - name: Extract Archive and create directories
         uses: appleboy/ssh-action@master
@@ -42,16 +42,16 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           envs: GITHUB_SHA
           script: |
-            mkdir -p "/var/www/html/releases/${GITHUB_SHA}"
-            tar xzf /var/www/html/artifacts/${GITHUB_SHA}.tar.gz -C "/var/www/html/releases/${GITHUB_SHA}"
+            mkdir -p "/var/www/normal/releases/${GITHUB_SHA}"
+            tar xzf /var/www/normal/artifacts/${GITHUB_SHA}.tar.gz -C "/var/www/normal/releases/${GITHUB_SHA}"
 
       - name: Activate Release
         uses: appleboy/ssh-action@master
         env:
           GITHUB_SHA: ${{github.sha}}
-          BASE_PATH: /var/www/html
-          RELEASE_PATH: /var/www/html/releases/${{github.sha}}
-          ACTIVE_PATH: /var/www/html/latest
+          BASE_PATH: /var/www/normal
+          RELEASE_PATH: /var/www/normal/releases/${{github.sha}}
+          ACTIVE_PATH: /var/www/normal/latest
         with:
           host: ${{secrets.SSH_HOST}}
           key: ${{secrets.SSH_KEY}}
@@ -65,8 +65,8 @@ jobs:
       - name: Cleanup
         uses: appleboy/ssh-action@master
         env:
-          RELEASE_PATH: /var/www/html/releases
-          ARTIFACTS_PATH: /var/www/html/artifacts
+          RELEASE_PATH: /var/www/normal/releases
+          ARTIFACTS_PATH: /var/www/normal/artifacts
         with:
           host: ${{secrets.SSH_HOST}}
           key: ${{secrets.SSH_KEY}}
