@@ -7,15 +7,15 @@ import Projects from "@/components/sections/Projects.vue";
 </script>
 
 <template>
-  <header class="header" ref="header">
-    <Navbar/>
-  </header>
-  <main>
-    <Hero/>
-    <About/>
-    <Projects/>
-  </main>
-  <EmailLink/>
+	<header ref="header" class="header">
+		<Navbar/>
+	</header>
+	<main>
+		<Hero/>
+		<About/>
+		<Projects/>
+	</main>
+	<EmailLink/>
 
 </template>
 

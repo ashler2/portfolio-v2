@@ -1,14 +1,14 @@
 <template>
-  <div class="sidebar-link sidebar-link--left">
-    a.sidebar-link__link
+	<div class="sidebar-link sidebar-link--left">
+		a.sidebar-link__link
 
-  </div>
+	</div>
 
 </template>
 
 <script>
 export default {
-  name: "SocialLinks"
+	name: "SocialLinks"
 }
 </script>
 

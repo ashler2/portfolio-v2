@@ -52,7 +52,7 @@ $navItemSpacing: 15px;
 .navbar {
   border-bottom: 2px solid $green--dark;
   color: #ffffff;
-  background-color: $navy ;
+  background-color: $navy;
 
   a {
     color: $white;
@@ -79,8 +79,9 @@ $navItemSpacing: 15px;
         }
       }
     }
+
     .navbar-wrapper {
-        transform: translateX(0);
+      transform: translateX(0);
     }
   }
 
