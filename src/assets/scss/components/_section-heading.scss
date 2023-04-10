@@ -3,12 +3,19 @@
   align-items: center;
   margin-bottom: 60px;
 
-  &:after {
-    content: '';
-    display: block;
+  //&:after {
+  //  content: '';
+  //  display: block;
+  //  height: 2px;
+  //  background-color: $green--dark;
+  //  width: 100%;
+  //}
+
+  hr {
+    flex-grow: 1;
     height: 2px;
     background-color: $green--dark;
-    width: 100%;
+    border: none
   }
 
 }

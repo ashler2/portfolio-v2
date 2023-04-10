@@ -3,7 +3,8 @@
     <a
         class="nav-link active"
         aria-current="page"
-        :href="`#${link}`"
+        :href="`#${link.toLowerCase()}`"
+        @click="handleClick"
     >
       {{ link }}
     </a>
@@ -16,6 +17,11 @@ export default {
     link: {
       type: String,
       required: true,
+    }
+  },
+  methods: {
+    handleClick(){
+      this.$emit('nav-item-clicked')
     }
   }
 }

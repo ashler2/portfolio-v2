@@ -4,7 +4,7 @@
       <div class="row">
         <SectionHeading title="Projects" number="03" class="col-12 col-sm-6"/>
       </div>
-      <div style="margin-top: -40px;">
+      <div style="margin-top: -40px;" >
         <ProjectCard v-for="project in projects" :key="project.title" :project="project"/>
       </div>
     </div>

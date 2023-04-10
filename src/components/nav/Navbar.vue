@@ -1,16 +1,4 @@
 <template>
-  <!--  <nav class="navbar">-->
-  <!--    <div class="navbar-container">-->
-  <!--      <nav-logo/>-->
-  <!--      <ul class="navbar-nav">-->
-  <!--        <nav-link link="About"/>-->
-  <!--        <nav-link link="Experience"/>-->
-  <!--        <nav-link link="Projects"/>-->
-  <!--        <nav-link link="Contact Me"/>-->
-  <!--      </ul>-->
-  <!--    </div>-->
-  <!--  </nav>-->
-
   <nav class="navbar" :class="{'navbar--active': navActive}">
     <div class="navbar-container">
       <nav-logo/>
@@ -29,10 +17,10 @@
       >
         <div class="menu">
           <ul>
-            <nav-link link="About"/>
-            <nav-link link="Experience"/>
-            <nav-link link="Projects"/>
-            <nav-link link="Contact Me"/>
+            <nav-link @nav-item-clicked="handleNavToggle" link="About"/>
+            <nav-link @nav-item-clicked="handleNavToggle" link="Experience"/>
+            <nav-link @nav-item-clicked="handleNavToggle" link="Projects"/>
+            <nav-link @nav-item-clicked="handleNavToggle" link="Contact Me"/>
           </ul>
         </div>
       </div>
@@ -54,7 +42,7 @@ export default {
     }
   },
   methods: {
-    handleNavToggle(){
+    handleNavToggle() {
       this.navActive = !this.navActive
     }
   },

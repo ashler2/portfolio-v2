@@ -7,11 +7,18 @@
 </template>
 
 <script setup>
-import {ref, computed} from "vue";
+import {ref, computed, reactive} from "vue";
 
 
+const {phrase} = reactive({
+  phrase: computed(() => {
+    if (window.screen.width <= 576) {
+      return 'Ash RT'
+    }
+    return 'Ashley Readman-Thorley'
+  })
+})
 
-const phrase = 'Ashley Readman-Thorley'
 
 const middle = phrase.length / 2
 let currentPhraseIndex = middle

@@ -2,8 +2,10 @@
   <section id="about">
     <div class="container">
       <div class="row">
+          <SectionHeading title="About Me" number="01" class="col-12 col-sm-6"/>
+      </div>
+      <div class="row">
         <div class="col-sm-12 col-md-6 ">
-          <SectionHeading title="About Me" number="01"/>
           <p>
             Hello! My name is Ashley.
           </p>

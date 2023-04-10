@@ -10,12 +10,14 @@ body {
 }
 
 .row {
-  width: 100%;
+  //width: 100%;
 }
 
 section:not(.carousel):not(#hero), .section {
-  margin: $section-padding;
+  margin-top: $section-padding-y;
+  margin-bottom: $section-padding-y;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 .mb-0 {

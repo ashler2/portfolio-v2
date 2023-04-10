@@ -4,6 +4,7 @@
       <span class="section-heading-title__number">{{ number }}.</span>
       <span class="section-heading-title__title">{{ title }}</span>
     </h2>
+    <hr>
   </div>
 </template>
 
