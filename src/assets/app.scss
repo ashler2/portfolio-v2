@@ -1,5 +1,9 @@
 @import './scss/base/variables';
-@import '~bootstrap/scss/bootstrap-grid.scss';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 @import './scss/base/base';
 @import './scss/base/typography';
