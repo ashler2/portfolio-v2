@@ -1,21 +1,87 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
- background-color: $navy;
- margin: 0;
- font-family: 'Roboto', sans-serif;
- color: $white;
+  background-color: $navy;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: $white;
 }
 
-section, .section {
- margin: $section-padding;
- height: 100vh;
+
+.container {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
+
+.row {
+  margin-top: -2.5rem;
+  @media(min-width: 768px) {
+    margin-right: -2rem;
+    margin-left: -2rem;
+  }
+}
+
+.col {
+  margin-top: 2.5rem;
+  @media(min-width: 768px) {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+.row {
+  //width: 100%;
+}
+
+section:not(.carousel):not(#hero), .section {
+  margin-top: $section-padding-y;
+  margin-bottom: $section-padding-y;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
 
 .mt-0 {
- margin-top: 0;
+  margin-top: 0;
 }
 
 .mt-20 {
- margin-top: 20px;
+  margin-top: 20px;
 }
 
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mb-sm-40 {
+  margin-bottom: 40px;
+
+  @media(min-width: 576px) {
+    margin-bottom: 0;
+  }
+}
+
+.button-container {
+
+  .btn:not(:first-child) {
+    margin-left: 10px;
+  }
+
+  .btn {
+    margin-top: 20px;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+}

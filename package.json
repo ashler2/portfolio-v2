@@ -11,17 +11,20 @@
     "test:e2e:dev": "start-server-and-test 'vite dev --port 4173' http://localhost:4173 'cypress open --e2e'"
   },
   "dependencies": {
-    "bootstrap": "^5.2.3",
     "dayjs": "^1.11.7",
-    "vue": "^3.2.47"
+    "vue": "^3.2.47",
+    "vue3-carousel": "^0.2.16"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
     "@vue/test-utils": "^2.3.0",
+    "autoprefixer": "^10.4.14",
     "cypress": "^12.7.0",
     "jsdom": "^21.1.0",
+    "postcss": "^8.4.22",
     "sass": "^1.59.3",
     "start-server-and-test": "^2.0.0",
+    "tailwindcss": "^3.3.1",
     "vite": "^4.1.4",
     "vitest": "^0.29.1"
   }
