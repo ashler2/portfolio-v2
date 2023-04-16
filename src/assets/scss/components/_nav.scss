@@ -1,4 +1,5 @@
 $navItemSpacing: 15px;
+$navSize: 67px;
 
 
 .nav-item {
@@ -160,11 +161,11 @@ $navItemSpacing: 15px;
     position: fixed;
     right: 0;
     width: 100%;
-    height: calc(100vh - 85px);
+    height: calc(100vh - $navSize);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    top: 87px;
+    top: $navSize;
     transform: translateX(100%);
     text-align: center;
     background-color: $navy;
