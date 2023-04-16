@@ -1,7 +1,7 @@
 <template>
-	<div class="project-card row mt-40">
-		<div class="col-12 col-sm-6 mb-sm-40">
-			<h3>{{ project.title }}</h3>
+	<div class="project-card row mt-40 flex-wrap">
+		<div class="w-full md:w-6/12 col">
+			<h3 class="mb-2">{{ project.title }}</h3>
 			<p>{{ project.description }}</p>
 			<TagSection :tags="project.tags"/>
 			<div class="button-container">
@@ -23,7 +23,7 @@
 				</a>
 			</div>
 		</div>
-		<div class="col-12 col-sm-6">
+		<div class="w-full md:w-6/12 col">
 			<BasicCarousel
 					v-if="project.images.length"
 					:images="project.images"

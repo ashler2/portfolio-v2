@@ -9,6 +9,29 @@ body {
   color: $white;
 }
 
+
+.container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+
+.row {
+  margin-top: -2.5rem;
+  @media(min-width: 768px) {
+    margin-right: -2rem;
+    margin-left: -2rem;
+  }
+}
+
+.col {
+  margin-top: 2.5rem;
+  @media(min-width: 768px) {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
 .row {
   //width: 100%;
 }
