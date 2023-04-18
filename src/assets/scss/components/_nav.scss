@@ -1,5 +1,5 @@
 $navItemSpacing: 15px;
-$navSize: 67px;
+$navSize: 87px;
 
 
 .nav-item {
@@ -54,6 +54,7 @@ $navSize: 67px;
   border-bottom: 2px solid $green--dark;
   color: #ffffff;
   background-color: $navy;
+  padding: 10px 0;
 
   a {
     color: $white;
