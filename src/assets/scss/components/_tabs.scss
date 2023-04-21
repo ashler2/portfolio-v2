@@ -1,0 +1,45 @@
+.tabs-wrapper {
+  @apply flex flex-nowrap flex-col;
+
+  @media(min-width: 768px) {
+    @apply flex-row;
+  }
+}
+
+.tabs-header {
+  @apply -mx-2 w-full;
+
+  @media(min-width: 768px) {
+    min-width: 200px;
+    max-width: 25%;
+  }
+
+  &__heading {
+    @apply py-2 px-2 hover:text-green--dark cursor-pointer transition-colors inline-block ;
+
+
+    @media(min-width: 768px) {
+        @apply block px-0;
+    }
+
+    &--active {
+      @apply text-green--dark;
+    }
+  }
+}
+
+.tab {
+  @apply py-2;
+
+  &__title {
+    @apply text-green--dark;
+  }
+
+  &__dates {
+    @apply text-cream;
+  }
+
+  &__list-item {
+    @apply text-cream;
+  }
+}

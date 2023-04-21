@@ -4,6 +4,7 @@ import Hero from "@/components/sections/Hero.vue";
 import EmailLink from "@/components/misc/EmailLink.vue";
 import About from "@/components/sections/About.vue";
 import Projects from "@/components/sections/Projects.vue";
+import Experience from "@/components/sections/Experience.vue";
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import Projects from "@/components/sections/Projects.vue";
 	<main>
 		<Hero/>
 		<About/>
+		<Experience/>
 		<Projects/>
 	</main>
 	<EmailLink/>
