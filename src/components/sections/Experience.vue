@@ -1,5 +1,5 @@
 <template>
-	<section class="flex items-center">
+	<section class="flex items-center" id="experience">
 		<div class="container mx-auto">
 			<SectionHeading title="Experience" number="02" class="w-full md:w-6/12"/>
 			<div class="tab-panel">
