@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Little Agency",
+    "dates": "2018-2022",
+    "points": [
+      "Worked mainly on custom wordpress themes using ACF.",
+      "Worked with a variety of different languages and frameworks such as wordpress, craft, vue and laravel",
+      "Interfaced with clients and provided solution requests"
+    ]
+  },
+  {
+    "title": "Netmatters",
+    "dates": "2021-Present",
+    "points": [
+      "Engineered and maintained major features on fullstack application primarily in laravel across multiple different versions and PHP versions.",
+      "Maintained and updated legacy code projects",
+      "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis"
+    ]
+  }
+]
