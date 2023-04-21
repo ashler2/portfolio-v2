@@ -2,7 +2,7 @@
 	<Carousel :wrap-around="true">
 		<Slide v-for="image in images" :key="image.link">
 			<div class="carousel__item">
-				<img :alt="image.alt" :src="image.link">
+				<img :alt="image.alt" :src="image.link" loading="lazy">
 			</div>
 		</Slide>
 
